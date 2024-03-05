@@ -1,1 +1,111 @@
- 
+/* ................ Collection Css............... */
+.Collection{
+    background-color: pink;
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.Main{
+    height: 37rem;
+    width: 90rem;
+    /* background-color: rgb(18, 17, 17); */
+    display: flex;
+}
+.Left-Part{
+    margin: 1rem;
+    background-color: rgb(70, 173, 54);
+    width: 50%;
+    display: flex;
+}
+.Collection4{
+    background-color: rgb(107, 107, 107);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Collection4-In{
+    background-color: rgb(107, 107, 107);
+    width: 50%;
+   
+}
+
+.Right-Part{
+    margin: 1rem;
+
+    background-color: rgb(132, 231, 130);
+    /* width: 50%; */
+    display: flex;
+}
+
+.img{
+    width: 100%;
+    height: auto; 
+    
+}
+.img-fluid{
+    width: 100%;
+    height: auto; 
+    
+}
+.Shopnow-Button{
+    -webkit-text-fill-color: chartreuse;
+    background-color: brown;
+    width: 150px;
+    height: 77px;
+    font-size: 18px;
+}
+
+
+/* .....................responsive................... */
+
+  
+  /* Media query for laptops and PCs */
+  @media screen and (max-width: 1024px) {
+    .Main{
+   
+   
+}
+  }
+  
+  /* Media query for tablets */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .tab {
+      /* Styles for tablets */
+    }
+  }
+  
+  /* Media query for mobile devices */
+  /* @media screen and (max-width: 767px) {
+    .Main{
+      height: 37rem;
+      width: 90rem;
+      background-color: rgb(78, 50, 171);
+      display: flex;
+      flex-direction: column; 
+   }
+   .Right-Part{
+    margin: 1rem;
+
+    background-color: rgb(132, 231, 130);
+    width: 50%;
+    display: flex;
+}
+
+    .img-fluid{
+        width: 12rem;
+        height: 38rem;
+        object-fit: cover;
+        
+    }
+  } */
+  
+  /* Media query for iPhones */
+  @media screen and (max-width: 375px) and (max-height: 812px) {
+    .tab {
+      /* Styles for iPhones (e.g., iPhone X) */
+    }
+  }
+  
