@@ -1,7 +1,9 @@
 
 import './App.css';
-import { Categories, NavBar } from './components';
+import { Categories, Footer, NavBar } from './components';
 import {BrowserRouter, BrowserRouter as Router } from "react-router-dom"
+ 
+
 
  
 
@@ -11,6 +13,7 @@ function App() {
     
     <NavBar/>
     <Categories/>
+    <Footer/>
     
     </BrowserRouter>
     
