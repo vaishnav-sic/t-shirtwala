@@ -1,0 +1,76 @@
+.navbar {
+  background-color: white;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  color: black;
+}
+
+.homeicon img {
+  width: 100px;
+  mix-blend-mode: multiply;
+}
+
+.leaf {
+  position: relative;
+  margin-right: 20px;
+}
+.leaf a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 300;
+}
+.leaf a:hover {
+  font-weight: 500;
+}
+.leaf:last-child {
+  margin-right: 0;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f0f0f0;
+  padding: 20px;
+  z-index: 1;
+  width: 200px;
+}
+
+.leaf:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  z-index: 1;
+}
+
+.sub-menu:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-menu a {
+  color: black;
+  text-decoration: none;
+
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 300;
+}
+
+.sub-menu a:hover {
+  color: #000000;
+  font-weight: 500;
+}
