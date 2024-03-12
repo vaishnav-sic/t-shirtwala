@@ -14,7 +14,8 @@ const Collection = () => {
               <button className="Shopnow-Button">SHOP NOW </button>
             </div>
             <div className="Imgs">
-              <img className="Img-fluid"
+              <img
+                className="Img-fluid"
                 src="https://images.bewakoof.com/t1080/men-s-black-crest-mark-graphic-printed-oversized-t-shirt-625622-1701150220-1.jpg"
               ></img>
             </div>
@@ -28,7 +29,7 @@ const Collection = () => {
             <div className="Imgs">
               <img
                 className="Img-fluid"
-                src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/8141uc7gWBL._AC_SL1500_.jpg"
+                src="https://www.italiancolony.com/cdn/shop/files/0A0A9648.jpg?v=1696586930&width=600"
               ></img>
             </div>
           </div>
@@ -70,4 +71,4 @@ const Collection = () => {
   );
 }
 
-export default Collection
+export default Collection;
