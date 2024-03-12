@@ -14,8 +14,7 @@ const Collection = () => {
               <button className="Shopnow-Button">SHOP NOW </button>
             </div>
             <div className="Imgs">
-              <img
-                className="Img-fluid"
+              <img className="Img-fluid"
                 src="https://images.bewakoof.com/t1080/men-s-black-crest-mark-graphic-printed-oversized-t-shirt-625622-1701150220-1.jpg"
               ></img>
             </div>
