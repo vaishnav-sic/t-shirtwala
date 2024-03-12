@@ -1,0 +1,50 @@
+.site-footer {
+    background-color: #f8f8f8;
+    height: 100vh;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+  }
+  
+  .customer-service,
+  .company-links {
+    display: flex;
+    flex-direction: column;
+    gap: -1rem;
+  }
+  
+  .customer-service a,
+  .company-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+  }
+  .customer-service-link{
+    margin-top: -20px;
+  }
+  .social-icons-link{
+    margin-top: -20px;
+  }
+  .facebook{
+    color: #3b5998;
+  }
+  .twitter{
+    color: #1DA1F2;
+  }
+  .instagram{
+    color: linear-gradient(to right, 
+    royalblue,       
+    blue,            
+    purple,          
+    deeppink,        
+    rebeccapurple,   
+    red,             
+    darkorange,      
+    orange,          
+    yellow,          
+    lightyellow      
+  );
+  }
