@@ -1,0 +1,27 @@
+.getmore-main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke; 
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  
+  .img-style {
+    width: 40vw; 
+    height: auto; 
+  }
