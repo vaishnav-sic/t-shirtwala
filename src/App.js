@@ -9,9 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <CarouselComponent />
+      <Collection />
       <Categories />
-      <GetMore />
       <Footer />
     </BrowserRouter>
   );
