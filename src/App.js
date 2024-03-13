@@ -1,9 +1,7 @@
-import "./App.css";
-import { Categories, NavBar } from "./components";
+import "./cssFiles/Collection.css";
+import { Categories, NavBar, Footer } from "./components";
 import { BrowserRouter, BrowserRouter as Router } from "react-router-dom";
-import CarouselComponent from "./components/Carousel";
-import GetMore from "./components/GetMore";
-import Footer from "./components/Footer";
+import Collection from "./components/Collection";
 
 function App() {
   return (
